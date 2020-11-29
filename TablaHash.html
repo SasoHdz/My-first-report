@@ -24,6 +24,12 @@ body
   color:floralwhite;
 }
 
+#cajita
+{
+    display: flex;
+    justify-content: space-between;
+}
+
 #setDatos 
 {
     margin: 10px;
@@ -40,6 +46,7 @@ body
     margin:10px;
     background-color: springgreen;
     color: seashell;
+    position: relative;
     animation-name: Mvdatos;
     animation-duration: 3s;
 
@@ -53,7 +60,7 @@ body
 #espacioHash 
 {
     position: relative;
-    width: 30%;
+    width: 20%;
     height: 20cm;
     background-color: violet;
     font-size: 40px;
@@ -62,8 +69,10 @@ body
 
 @keyframes Mvdatos
 {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    0% {background-color:red; left:0px; top:0px;}
+    50% {background-color:yellow; left:100px; top:0px;}
+    75% {background-color:blue; left:300px; top:0px;}
+    100% {display: none;}
 }
 
 </style>
@@ -77,44 +86,48 @@ body
         <p>Set de Datos: </p>
         <div>{12, 23, 45, 34, 44, 78, 255, 66, 88, 19}</div>
     </div>
-    <div id="Datos">
-        <div>
-            12
+    <div id="cajita">
+
+        <div id="Datos">
+            <div>
+                12
+            </div>
+            <div>
+                23
+            </div>
+            <div>
+                45
+            </div>
+            <div>
+                34
+            </div>
+            <div>
+                44
+            </div>
+            <div>
+                78
+            </div>
+            <div>
+                255
+            </div>
+            <div>
+                66
+            </div>
+            <div>
+                88
+            </div>
+            <div>
+                19
+            </div>
+            
         </div>
-        <div>
-            23
-        </div>
-        <div>
-            45
-        </div>
-        <div>
-            34
-        </div>
-        <div>
-            44
-        </div>
-        <div>
-            78
-        </div>
-        <div>
-            255
-        </div>
-        <div>
-            66
-        </div>
-        <div>
-            88
-        </div>
-        <div>
-            19
+        <div id="espacioHash">
+            Funcion Hash
+            <div>
+    
+            </div>
         </div>
         
-    </div>
-    <div id="espacioHash">
-        Funcion Hash
-        <div>
-
-        </div>
     </div>
 </body>
 </html>
