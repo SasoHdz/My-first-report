@@ -49,9 +49,14 @@ body
     background-color: springgreen;
     color: seashell;
     position: relative;
-    animation-name: Mvdatos;
-    animation-duration: 3s;
+    /*animation-name: Mvdatos;
+    animation-duration: 3s;*/
 
+}
+#ccero
+{
+  animation-name:cero;
+  animation-duration: 3s;
 }
 
 #areaHash 
@@ -88,7 +93,12 @@ body
     75% {background-color:blue; left:300px; top:0px;}
     100% {display: none;}
 }
-
+@keyframes cero {
+    0% {top:0px; right: 0px; bottom: 0px; left:0px;}
+    50% {top:0px; right: 0px; bottom: 0px; left:200px; }
+    75%{top:200px; right: 0px; bottom: 0px; left: 200px;}
+    100%{top:200px; right: 0px; bottom: 0px; left: 600px;}
+}
 </style>
 <body>
     <header id="header">
@@ -103,7 +113,7 @@ body
     <div id="cajita">
 
         <div id="Datos">
-            <div>
+            <div id="ccero">
                 12
             </div>
             <div>
