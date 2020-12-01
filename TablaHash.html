@@ -49,22 +49,29 @@ body
     background-color: springgreen;
     color: seashell;
     position: relative;
-    /*animation-name: Mvdatos;
-    animation-duration: 3s;*/
-
+    opacity: 0%;
 }
 #ccero
 {
   animation-name:cero;
   animation-duration: 3s;
+  
+}
+
+#uuno
+{
+    animation-name: uno;
+    animation-delay: 3s;
+    animation-duration: 4s;
 }
 
 #areaHash 
 {
     position: relative;
     width: 200px;
-    height: 600px;
+    height: 400px;
     margin-right: 20px;
+    margin-top: 20px;
     border: 3px solid white;
     background-color: violet;
     font-size: 40px;
@@ -86,18 +93,39 @@ body
     color: white;
 }
 
-@keyframes Mvdatos
+#doce
 {
-    0% {background-color:red; left:0px; top:0px;}
-    50% {background-color:yellow; left:100px; top:0px;}
-    75% {background-color:blue; left:300px; top:0px;}
-    100% {display: none;}
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 20s;
+}
+#dostres
+{ 
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 60s;
 }
 @keyframes cero {
-    0% {top:0px; right: 0px; bottom: 0px; left:0px;}
-    50% {top:0px; right: 0px; bottom: 0px; left:200px; }
-    75%{top:200px; right: 0px; bottom: 0px; left: 200px;}
-    100%{top:200px; right: 0px; bottom: 0px; left: 600px;}
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    20% {top:0px; right: 0px; bottom: 0px; left:200px; opacity: 100%;}
+    40% {top:200px; right: 0px; bottom: 0px; left: 200px; opacity: 100%;}
+    60% {top:200px; right: 0px; bottom: 0px; left: 700px; opacity: 100%;}
+    80% {top:360px; right: 0px; bottom: 0px; left: 700px; opacity: 100%;}
+    100%{top:353px; right: 0px; bottom: 0px; left: 765px; opacity: 0%;}
+}
+
+@keyframes uno {
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:40px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:40px; right: 0px; bottom: 0px; left:750px; opacity: 100%;}
+}
+
+@keyframes apareciendo {
+    to {opacity: 100%;}
+    from {opacity: 0%;}
 }
 </style>
 <body>
@@ -116,7 +144,7 @@ body
             <div id="ccero">
                 12
             </div>
-            <div>
+            <div id="uuno">
                 23
             </div>
             <div>
@@ -155,7 +183,7 @@ body
                 
             </div>
             <div><span>2</span>
-                
+                <span id="dostres">23</span>                
             </div>
             <div><span>3</span>
                 
@@ -176,7 +204,7 @@ body
                 
             </div>
             <div><span>9</span>
-                
+                <span id="doce">12</span>
             </div>
 
         </div>   
