@@ -42,6 +42,8 @@ body
     position: relative;
     opacity: 0%;
 }
+
+/*Area de animacion de set de datos */
 #ccero
 {
   animation-name:cero;
@@ -54,6 +56,34 @@ body
     animation-name: uno;
     animation-delay: 3s;
     animation-duration: 4s;
+}
+
+#ddos
+{
+    animation-name: dos;
+    animation-delay: 7s;
+    animation-duration: 4s;
+}
+
+#ttres
+{
+    animation-name: tres;
+    animation-delay: 11s;
+    animation-duration: 3s;
+}
+
+#ccinco
+{
+    animation-name: cinco;
+    animation-delay: 19s;
+    animation-duration: 3s;
+}
+
+#cciete
+{
+    animation-name: ciete;
+    animation-delay: 15s;
+    animation-duration: 3s;
 }
 
 #areaHash 
@@ -103,7 +133,15 @@ body
     text-align: center;
     margin-left: 10px;
     animation-name: apareciendo;
-    animation-duration: 60s;
+    animation-duration: 90s;
+}
+
+#trescuatro
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 120s;
 }
 
 @keyframes cero {
@@ -118,6 +156,36 @@ body
     50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
     75% {top:40px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
     100% {top:40px; right: 0px; bottom: 0px; left:750px; opacity: 100%;}
+}
+
+@keyframes dos {
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:75px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:75px; right: 0px; bottom: 0px; left:750px; opacity: 100%;}
+}
+
+@keyframes tres{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    75% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:0px; right: 0px; bottom: 80px; left:780px; opacity: 100%;}
+    /*100% {top:0px; right: 0px; bottom: 80px; left:750px; opacity: 100%;}*/
+}
+
+@keyframes cinco
+{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:70px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:70px; right: 0px; bottom: 0px; left:780px; opacity: 100%;}
+}
+
+@keyframes ciete
+{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:-87px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:-87px; right: 0px; bottom: 0px; left:780px; opacity: 100%;}
 }
 
 @keyframes apareciendo {
