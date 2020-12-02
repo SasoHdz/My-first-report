@@ -1,0 +1,126 @@
+body
+{
+  background-color: #2a2b2a;
+  margin:10px
+}
+
+#header div
+{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(46, 179, 128);
+  font-size: 50px;
+  text-align: center;
+  color:floralwhite;
+}
+
+#cajita
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#setDatos 
+{
+    margin: 10px;
+    font-size: 30px;
+    color:seashell;
+}
+
+#Datos div
+{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin:0px 0px 0px 20px;
+    border: 2px solid;
+    background-color: springgreen;
+    color: seashell;
+    position: relative;
+    opacity: 0%;
+}
+#ccero
+{
+  animation-name:cero;
+  animation-duration: 3s;
+  
+}
+
+#uuno
+{
+    animation-name: uno;
+    animation-delay: 3s;
+    animation-duration: 4s;
+}
+
+#areaHash 
+{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 3px solid white;
+    background-color: violet;
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#Array div
+{
+    height: 35px;
+    width: 55px;
+    margin: 0px 100px 0px -80px;
+    background-color: rgb(67, 80, 201);
+    border: 2px solid white;
+}
+#Array span
+{
+    font-size: 15px;
+    color: white;
+}
+
+#doce
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 20s;
+}
+#dostres
+{ 
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 60s;
+}
+#cuatrocinco
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 60s;
+}
+
+@keyframes cero {
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:40px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:40px; right: 0px; bottom: 0px; left:750px; opacity: 100%;}
+}
+
+@keyframes uno {
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:40px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:40px; right: 0px; bottom: 0px; left:750px; opacity: 100%;}
+}
+
+@keyframes apareciendo {
+    to {opacity: 100%;}
+    from {opacity: 0%;}
+}
