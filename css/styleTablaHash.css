@@ -86,6 +86,13 @@ body
     animation-duration: 3s;
 }
 
+#nnueve
+{
+    animation-name: nueve;
+    animation-delay: 23s;
+    animation-duration: 3s;
+}
+
 #areaHash 
 {
     position: relative;
@@ -186,6 +193,14 @@ body
     50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
     75% {top:-87px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
     100% {top:-87px; right: 0px; bottom: 0px; left:780px; opacity: 100%;}
+}
+
+@keyframes nueve
+{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:-50px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:-50px; right: 0px; bottom: 0px; left:780px; opacity: 100%;}/
 }
 
 @keyframes apareciendo {
