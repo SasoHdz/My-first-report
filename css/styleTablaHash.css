@@ -107,11 +107,22 @@ body
     color: whitesmoke;
 }
 
+#caja2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: -100px;
+}
+
+#Array
+{
+    margin: 0px -80px 0px 0px;
+}
+
 #Array div
 {
     height: 35px;
     width: 55px;
-    margin: 0px 100px 0px -80px;
     background-color: rgb(67, 80, 201);
     border: 2px solid white;
 }
@@ -126,7 +137,8 @@ body
     text-align: center;
     margin-left: 10px;
     animation-name: apareciendo;
-    animation-duration: 20s;
+    animation-delay: 60s;
+    animation-duration: 1s;
 }
 #dostres
 { 
@@ -151,6 +163,48 @@ body
     animation-duration: 120s;
 }
 
+#seiseis
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 150s;
+}
+
+#sieteocho
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 190s;
+
+}
+
+#uninueve
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 230s;
+}
+
+#cadena
+{
+    margin: 118px 150px 0px 87px;
+}
+
+#cadena div
+{
+    background-color: rgb(101, 175, 245);
+    border: 2px solid white;
+    height: 35px;
+    width: 55px;;
+
+}
+#bucket3
+{
+    margin-top: 75px;
+}
 @keyframes cero {
     0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
     50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
@@ -200,7 +254,7 @@ body
     0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
     50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
     75% {top:-50px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
-    100% {top:-50px; right: 0px; bottom: 0px; left:780px; opacity: 100%;}/
+    100% {top:-50px; right: 0px; bottom: 0px; left:780px; opacity: 100%;}
 }
 
 @keyframes apareciendo {
