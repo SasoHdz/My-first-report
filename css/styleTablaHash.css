@@ -1,0 +1,335 @@
+body
+{
+  background-color: #2a2b2a;
+  margin:10px
+}
+
+#header div
+{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(46, 179, 128);
+  font-size: 50px;
+  text-align: center;
+  color:floralwhite;
+}
+
+#cajita
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#setDatos 
+{
+    margin: 10px;
+    font-size: 30px;
+    color:seashell;
+}
+
+#Datos div
+{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin:0px 0px 0px 20px;
+    border: 2px solid;
+    background-color: springgreen;
+    color: seashell;
+    position: relative;
+    opacity: 0%;
+}
+
+/*Area de animacion de set de datos */
+#ccero
+{
+  animation-name:cero;
+  animation-duration: 3s;
+  
+}
+
+#uuno
+{
+    animation-name: uno;
+    animation-delay: 3s;
+    animation-duration: 4s;
+}
+
+#ddos
+{
+    animation-name: dos;
+    animation-delay: 7s;
+    animation-duration: 4s;
+}
+
+#ttres
+{
+    animation-name: tres;
+    animation-delay: 11s;
+    animation-duration: 3s;
+}
+
+#ccuatro
+{
+    animation-name: cuatro;
+    animation-delay: 27s;
+    animation-duration: 4s;
+}
+
+#ccinco
+{
+    animation-name: cinco;
+    animation-delay: 19s;
+    animation-duration: 3s;
+}
+
+#sseis
+{
+    animation-name: seis;
+    animation-delay: 31s;
+    animation-duration: 3s;
+}
+
+
+#cciete
+{
+    animation-name: ciete;
+    animation-delay: 15s;
+    animation-duration: 3s;
+}
+
+#oocho
+{
+    animation-name: ocho;
+    animation-delay: 35s;
+    animation-duration: 3s;
+}
+
+
+#nnueve
+{
+    animation-name: nueve;
+    animation-delay: 23s;
+    animation-duration: 3s;
+}
+
+#areaHash 
+{
+    position: relative;
+    width: 200px;
+    height: 450px;
+    margin-right: 20px;
+    border: 3px solid white;
+    background-color: violet;
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#caja2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: -100px;
+}
+
+#Array
+{
+    margin: 0px -80px 0px 0px;
+}
+
+#Array div
+{
+    height: 35px;
+    width: 55px;
+    background-color: rgb(67, 80, 201);
+    border: 2px solid white;
+}
+#Array span
+{
+    font-size: 15px;
+    color: white;
+}
+
+#doce
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 20s;
+}
+#dostres
+{ 
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 60s;
+}
+#cuatrocinco
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 90s;
+}
+
+#trescuatro
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 120s;
+}
+
+#seiseis
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 150s;
+}
+
+#sieteocho
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 190s;
+
+}
+
+#unonueve
+{
+    text-align: center;
+    margin-left: 10px;
+    animation-name: apareciendo;
+    animation-duration: 230s;
+}
+
+#cuatrocuatro
+{
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    animation-name: apareciendo;
+    animation-duration: 270s;
+}
+
+#doscinco
+{
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    animation-name: apareciendo;
+    animation-duration: 310s;
+}
+
+#ochocho
+{
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    animation-name: apareciendo;
+    animation-duration: 350s;
+}
+
+#cadena
+{
+    margin: 118px 150px 0px 87px;
+}
+
+#cadena div
+{
+    background-color: rgb(101, 175, 245);
+    border: 2px solid white;
+    height: 35px;
+    width: 55px;;
+
+}
+#bucket3
+{
+    margin-top: 75px;
+}
+@keyframes cero {
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:40px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:40px; right: 0px; bottom: 0px; left:750px; opacity: 100%;}
+}
+
+@keyframes uno {
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:40px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:40px; right: 0px; bottom: 0px; left:750px; opacity: 100%;}
+}
+
+@keyframes dos {
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:75px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:75px; right: 0px; bottom: 0px; left:750px; opacity: 100%;}
+}
+
+@keyframes tres{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    75% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:0px; right: 0px; bottom: 80px; left:780px; opacity: 100%;}
+    /*100% {top:0px; right: 0px; bottom: 80px; left:750px; opacity: 100%;}*/
+}
+
+@keyframes cuatro{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:-40px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:-40px; right: 0px; bottom: 0px; left:880px; opacity: 100%;}
+}
+
+@keyframes cinco
+{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:70px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:70px; right: 0px; bottom: 0px; left:780px; opacity: 100%;}
+}
+
+@keyframes seis
+{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:-80px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:-80px; right: 0px; bottom: 0px; left:880px; opacity: 100%;}
+}
+
+
+@keyframes ciete
+{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:-87px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:-87px; right: 0px; bottom: 0px; left:780px; opacity: 100%;}
+}
+
+@keyframes ocho
+{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:-50px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:-50px; right: 0px; bottom: 0px; left:880px; opacity: 100%;}
+}
+
+@keyframes nueve
+{
+    0%  {top:0px; right: 0px; bottom: 0px; left:0px; opacity: 100%;}
+    50% {top:0px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    75% {top:-50px; right: 0px; bottom: 0px; left:700px; opacity: 100%;}
+    100% {top:-50px; right: 0px; bottom: 0px; left:780px; opacity: 100%;}
+}
+
+@keyframes apareciendo {
+    to {opacity: 100%;}
+    from {opacity: 0%;}
+}

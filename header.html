@@ -30,7 +30,8 @@
     }
     .header__menu
     {
-       margin-right:30px;
+        margin-right: 10px;
+        margin-top: 10px;
     }
     .header__menu ul
     {
@@ -42,7 +43,6 @@
         text-align: right;
         margin: 0px 0px 0px -14px;
     }
-
     .header__menu:hover ul, ul:hover
     {
         display: block;
@@ -50,7 +50,13 @@
 
     .header__menu li
     {
-        margin: 10px;
+        margin: 10px 0px;
+
+    }
+
+    .header__menu li a
+    {
+        text-decoration: underline;
     }
 
     .header__menu a
@@ -58,27 +64,48 @@
         color: white;
         text-decoration: none;
     }
-
-    .header__menu li a:hover
-    {
-        text-decoration: underline;
-    }
-
+    
     .header__menu--profile
     {
+       color:white;
        margin-right: 8px;
-       width: 40%;
+       width: 120px;
        display: flex;
+    }
+    .main
+    {
+        height: 200px;
+    }
+    .main__title
+    {
+        color:white;
+        font-size: 25px;
+    }
+
+    .input
+    {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 30px;
+        border: 2px solid white;
+        color: white;
+        font-size: 15px;
+        height: 50px;
+        padding: 0px 20px;
+        width: 70%;
+    }
+    ::placeholder
+    {
+        color: white;
     }
 
 </style>
 <body >
     <header class="header">
-     <img class="header__img" src= "file:///C:/Users/SasoHdz/Documents/proyecto/My-first-report/PlatziVideo/logo-platzi-video-BW2.png" alt = "">
+     <img class="header__img" src= "PlatziVideo/logo-platzi-video-BW2.png" alt = "">
      <div class="header__menu">
-         <div class="header__menu--profile"> 
+         <div class="header__menu--profile">
             <img src="./icons8-usuario-masculino-en-círculo-48.png" alt="">
-            <p>Perfil</p>
+            <p>Perfil</p> 
          </div>
             <ul>
                  <li><a href="/">Cuenta</a></li>
@@ -86,6 +113,9 @@
             </ul>    
      </div>
     </header>
-    
+    <section class="main">
+        <h1 class="main__title">¿Que quieres ver hoy?</h1>
+        <input class="input" type="text" placeholder="Buscar...">
+    </section>
 </body>
 </html>
