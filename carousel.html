@@ -6,13 +6,15 @@
     <title>Carusel-1</title>
 </head>
 <style>
+    body{
+        margin: 0px;
+    }    
 
     .carousel{
         width: 100%;
         overflow:scroll;
         padding: 30px;
         position: relative;
-
     }
 
     .carousel__container{
@@ -31,7 +33,7 @@
         display: inline-block;
         cursor: pointer;
         transition: 450ms all;
-
+        transform-origin: center left;
     }
 
     .carousel__item:hover ~ .carousel__item{
@@ -44,7 +46,7 @@
 
     .carousel__container:hover .carousel__item:hover {
         transform: scale(1.5);
-        opacity: 0.3;
+        opacity: 1;
     }
 
 </style>
