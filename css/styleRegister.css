@@ -42,6 +42,15 @@ body
     
 }
 
+.login__container a {
+    color:white;
+    text-decoration: none;
+}
+
+.login__container a:hover {
+    text-decoration: underline;
+}
+
 .login__container--form {
     display: flex;
     flex-direction: column;
@@ -61,6 +70,10 @@ body
     border-left: 0px;
 }
 
+::placeholder{
+    color: white;
+}
+
 .button{
     height: 50px;
     outline: none;
@@ -68,4 +81,23 @@ body
     border-radius: 40px;
     color: white;
     border: 0px
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #AB88FF;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer a{
+    color:white;
+    text-decoration: none;
+    padding-left:20px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
